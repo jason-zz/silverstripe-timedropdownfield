@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+.datetime .timedropdown .middleColumn {
+	float: left;
+	display: block;
+	padding: 8px 8px 0 0;
+}
+
+.timedropdown input[type="text"] {
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+.timedropdown .presets-trigger {
+	float: left;
+	display: block;
+	background-image: url(../images/time-icon.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 64px 32px;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+}
+
+.timedropdown .presets-trigger.opened {
+	background-position: -32px 0px;
+}
+
+.timedropdown select.dropdown {
+	display: none;
+	float: right;
+	width: 88px;
+	height: 32px;
+	margin: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.timedropdown select.dropdown:focus {
+	outline: none;
+	border: 1px solid #0073c1;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 115, 193, 0.15);
+	-moz-box-shadow:    0px 0px 3px 0px rgba(0, 115, 193, 0.15);
+	box-shadow:         0px 0px 3px 0px rgba(0, 115, 193, 0.15);
+}
+
+.timedropdown select.dropdown.opened {
+	display: block;
+}
+
+/* Dropdown Colours */
+
+.morning {
+	background: #ffc;
+}
+.noon {
+	background: #fcc;
+}
+.afternoon {
+	background: #cff;
+}
+.evening {
+	background: #ccf;
+}
+.midnight {
+	background: #ccc;
+}
